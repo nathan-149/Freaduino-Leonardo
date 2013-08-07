@@ -1,0 +1,20 @@
+void setup()
+{
+  Mouse.begin();
+  delay(1000);
+  Mouse.move(10000,50,7000);
+  delay(1000);
+   Mouse.move(500,8000,0);
+  delay(1000);
+  Mouse.move(20000,40,0);
+  delay(1000);
+  Mouse.move(1000,551000,0);
+  Mouse.click();
+  Mouse.click(MOUSE_RIGHT);
+  Mouse.release();
+}
+
+void loop()
+{
+  delay(10);
+}
